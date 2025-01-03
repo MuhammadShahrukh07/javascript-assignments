@@ -1,0 +1,43 @@
+        body {
+            background: linear-gradient(to right, #6a11cb, #2575fc);
+            color: black;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .container {
+            max-width: 600px;
+        }
+        #heading-color{
+            color: white;
+            font-weight: bold;
+        }
+        #label{
+            font-weight: bold;
+        }
+        .card {
+            border: none;
+            border-radius: 15px;
+            background: #E5D9F2;
+           
+        }
+        #checkWeatherBtn {
+            background: #7E5CAD;
+            border: none;
+            font-weight: bold;
+            font-size: 1.1rem;
+            transition: background 0.3s;
+        }
+        #checkWeatherBtn:hover {
+            background: #A19AD3;
+        }
+        .weather-info {
+            text-align: center;
+        }
+        .weather-info h2 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+        .weather-info p {
+            font-size: 1.2rem;
+        }
+    
+        
